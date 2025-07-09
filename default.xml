@@ -2,12 +2,7 @@
 <manifest>
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com" 
-           revision="refs/tags/android-10.0.0_r47" />
-  <remote  name="bbry"
-           fetch="https://github.com/BlackberryOpenSource"
-           review="https://android-review.googlesource.com"
-           revision="refs/tags/android-10.0.0_r47" />
+           review="https://android-review.googlesource.com" />
   <default revision="refs/tags/android-10.0.0_r47"
            remote="aosp"
            sync-c="true"
