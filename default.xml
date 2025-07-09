@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com"
+           review="https://android-review.googlesource.com" 
+           revision="refs/tags/android-10.0.0_r47" />
   <remote  name="bbry"
-           fetch="https://github.com/BlackberryOpenSource/"
-           review="https://android-review.googlesource.com/"
+           fetch="https://github.com/BlackberryOpenSource"
+           review="https://android-review.googlesource.com"
            revision="refs/tags/android-10.0.0_r47" />
   <default revision="refs/tags/android-10.0.0_r47"
            remote="aosp"
