@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/blackberry/athena" name="BlackberryOpenSource/android_device_blackberry_athena" groups="device,athena" remote="github" revision="android-10.0.0_r47" />
-  <project path="device/blackberry/athena-kernel" name="BlackberryOpenSource/android_kernel_blackberry_sdm660" groups="device,athena" remote="github" revision="ACW142" />
+  <project path="kernel/blackberry/sdm660" name="BlackberryOpenSource/android_kernel_blackberry_sdm660" groups="device,athena" remote="github" revision="ACW142" />
   <project path="vendor/blackberry/athena" name="BlackberryOpenSource/proprietary_vendor_blackberry_athena" groups="device,athena" remote="github" revision="android-10.0.0_r47" />
 </manifest>
